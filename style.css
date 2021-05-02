@@ -1,0 +1,98 @@
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: Arial, Helvetica, sans-serif;
+}
+section,header {
+	width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.box-1 {
+	height: 400px;
+	background-color: #483a92;
+	position: relative;
+}
+ul{
+	position: absolute;
+	top: 2em;
+	left: 12em;
+	margin: 0;
+}
+li{
+	display: inline-block;
+	color: white;
+	margin-left: .8em;
+	font-size: 1rem;
+}
+button {
+	position: absolute;
+	left: 34em;
+	top: 1.5em;
+	background-color: rgb(194, 13, 194);
+	color: white;
+	font-size: 1rem;
+	border: none;
+	border-radius: 20px;
+	padding: 0.5em;
+}
+.cel-1 {
+	width: 300px;
+	position: absolute;
+	top: 8em;
+	left: 20em;
+}
+.box-2 {
+	height: 300px;
+	background-color: skyblue;
+}
+article {
+	width: 12em;
+	display: inline-block;
+	position: relative;
+	margin-top: 4em;
+	margin-left: 1.8em;
+	background-color: white;
+	border-radius: 10px;
+	padding: 1.5em;
+	vertical-align:text-top;
+}
+article>h3{
+	font-size: 1rem;
+	color: rgb(194, 13, 194);
+	margin: 0;
+	
+}
+p
+{
+	font-size: .8rem;
+}
+.box-3 {
+	height: 300px;
+	background-color: pink;
+	position: relative;
+}
+div{
+	width: 12em;
+	position: relative;
+	top: 6em;
+	left: 2.5em;
+}
+h2 {
+	font-size: 1.2rem;
+	color: darkblue;
+	margin: 0;
+}
+.precio {
+	width: 230px;
+	position: absolute;
+	top: 4em;
+	left: 15em;
+}
+.data {
+	width: 230px;
+	position: absolute;
+	top: 7em;
+	left: 28em;
+}
