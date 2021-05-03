@@ -2,10 +2,10 @@
 	box-sizing: border-box;
 }
 body {
-	font-family: Arial, Helvetica, sans-serif;
+	font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
 }
 section,header {
-	width: 700px;
+	width: 800px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -17,7 +17,7 @@ section,header {
 ul{
 	position: absolute;
 	top: 2em;
-	left: 12em;
+	left: 18em;
 	margin: 0;
 }
 li{
@@ -28,7 +28,7 @@ li{
 }
 button {
 	position: absolute;
-	left: 34em;
+	left: 38em;
 	top: 1.5em;
 	background-color: rgb(194, 13, 194);
 	color: white;
@@ -41,18 +41,18 @@ button {
 	width: 300px;
 	position: absolute;
 	top: 8em;
-	left: 20em;
+	left: 25em;
 }
 .box-2 {
 	height: 300px;
 	background-color: skyblue;
 }
-article {
+.box-2>article {
 	width: 12em;
 	display: inline-block;
 	position: relative;
 	margin-top: 4em;
-	margin-left: 1.8em;
+	margin-left: 3.5em;
 	background-color: white;
 	border-radius: 10px;
 	padding: 1.5em;
@@ -64,8 +64,7 @@ article>h3{
 	margin: 0;
 	
 }
-p
-{
+p{
 	font-size: .8rem;
 }
 .box-3 {
@@ -77,7 +76,7 @@ div{
 	width: 12em;
 	position: relative;
 	top: 6em;
-	left: 2.5em;
+	left: 4em;
 }
 h2 {
 	font-size: 1.2rem;
@@ -88,11 +87,67 @@ h2 {
 	width: 230px;
 	position: absolute;
 	top: 4em;
-	left: 15em;
+	left: 20em;
 }
 .data {
 	width: 230px;
 	position: absolute;
 	top: 7em;
-	left: 28em;
+	left: 35em;
+}
+.box-4 {
+	height: 300px;
+	background-color: yellow;
+	position: relative;
+}
+.cel-2 {
+	width: 300px;
+	position: absolute;
+	top: 2em;
+	left: 4em;
+}
+img+div {
+	width: 12em;
+	position: relative;
+	top: 6em;
+	left: 32em;
+}
+.btn-2 {
+	position: absolute;
+	left: 32em;
+	top: 12em;
+	background-color: rgb(194, 13, 194);
+	color: white;
+	font-size: 1rem;
+	border: none;
+	border-radius: 20px;
+	padding: 0.5em;
+}
+.box-5 {
+	height: 300px;
+	background-color: skyblue;
+}
+.box-5>h2 {
+	margin: 0;
+	width: 10em;
+	position: relative;
+	top: 1em;
+	left: 3em;
+}
+.box-5>article {
+	width: 15em;
+	height: 10em;
+	display: inline-block;
+	position: relative;
+	margin-top: 5em;
+	margin-left: 1em;
+	background-color: white;
+	border-radius: 10px;
+	padding: .8em;
+	vertical-align:text-top;
+}
+.job  {
+	color: darkblue;
+	font-weight: bold;
+	font-size: 0.8rem;
 }
